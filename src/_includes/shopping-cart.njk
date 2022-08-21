@@ -1,0 +1,30 @@
+<button id="warenkorb-trigger" data-a11y-dialog-show="cart-modal">
+	Mein Warenkorb
+</button>
+
+<div
+	id="cart-modal"
+	aria-labelledby="cart-modal-title"
+	aria-hidden="true"
+	class="dialog-container"
+>
+	<div class="dialog-overlay" data-a11y-dialog-hide></div>
+	<div role="document" class="dialog-content fifty">
+		<button type="button" data-a11y-dialog-hide aria-label="Dialog schließen">
+			&times;
+		</button>
+		<h1 id="cart-modal-title">Mein Warenkorb</h1>
+
+		<ul id="cartproducts" >
+			<li
+
+			>
+				<strong></strong>
+				<p>€</p>
+				<button>
+					Aus Warenkorb entfernen
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ meta.title }}</title>
+{#	<link rel="stylesheet" href="style.scss" />#}
+	<link rel="stylesheet" href="/assets/css/main.scss">
+
+	<script type="module" src="{{ '/assets/js/main.js' | url }}"></script>
+{#	<script src="https://unpkg.com/petite-vue"></script>#}
+</head>
+<body v-scope>
+<header>
+	{% include "header.njk" %}
+
+	<button @click="toggleCartItem(5)">increment</button>
+</header>
+<main>
+	<h1>Orinoco – Dein Shop für alles Mögliche</h1>
+
+	{% include "carousel.njk" %}
+
+	<h2>Neuerscheinungen</h2>
+
+	{% include "products.njk" %}
+
+	<h2>Beliebte Produkte</h2>
+
+		{{ content | safe }}
+</main>
+<aside>
+	<h2><span lang="en">Grey Friday</span>-Angebote</h2>
+
+	{% include "product.njk" %}
+</aside>
+<footer>
+	{% include "footer.njk" %}
+</footer>
+</body>
+</html>
+

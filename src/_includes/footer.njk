@@ -1,0 +1,20 @@
+<button data-a11y-dialog-show="cookie-modal">Cookie-Dialog</button>
+<div
+	id="cookie-modal"
+	aria-labelledby="cookie-modal-title"
+	aria-hidden="true"
+	class="dialog-container"
+>
+	<div class="dialog-overlay"></div>
+	<div role="document" class="dialog-content">
+		<button type="button" data-a11y-dialog-hide aria-label="Dialog schließen">
+			&times;
+		</button>
+		<h1 id="cookie-modal-title">Wichtige Cookie-Hinweise 🍪</h1>
+
+		<p>Bla bla</p>
+
+		<button type="button" data-a11y-dialog-hide="cookie-modal">Ich akzeptiere</button>
+
+	</div>
+</div>

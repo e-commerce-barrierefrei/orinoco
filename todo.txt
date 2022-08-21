@@ -1,0 +1,42 @@
+---
+documenttitle: E-Commerce barrierefrei
+title: E-Commerce barrierefrei
+claim: "ist eine mehrtägiger interaktiver Workshop mit barrierefreien <strong>best practices</strong> für Ihren Online-Shop"
+arguments:
+    capitalistic: Erweitern Sie Ihre Kundschaft! Online-Shops mit Barrieren verhindern, dass Menschen mit Behinderungen Ihre Waren und Dienstleistungen kaufen können
+    competition: Gewinnen Sie einen Vorsprung gegenüber der Konkurrenz! Und tun Sie das ethisch Richtige, bevor ab 2025 die ganze Branche gesetzlich verpflichtet wird.
+    timeline: Investieren Sie rechtzeitig in die Barrierefreiheit und stellen Sie die Weichen, in dem Sie mehr über etablierte und zugängliche Nutzungsmuster für Ihr Frontend erfahren.
+layout: base.njk
+---
+## Was bietet der Kurs?
+* Eine Seminarreihe für Sie oder Ihr Team, remote oder vor Ort
+* Acht Trainingsmodule mit interaktiven Übungen: Ihr Team lernt erprobte E-Commerce-Pattern in HTML, CSS und JavaScript aus der Barrierefreiheits-Praxis.
+    * Modale Fenster
+    * Megamenüs
+    * Infinite Scroll
+    * Warenkorb
+    * Formulare
+    * Karussels
+    * Produktfilter und -sortierungen
+    * Preisauszeichnungen
+ * Workbook
+ * Zugriff auf exklusiven Slack-Channel
+
+
+## Wie lernen die Teilnehmenden?
+Der Orinoco-Trainings-Shop bietet alle Pattern aus der Schulung im praktischen Einsatz.
+ /Bild
+
+
+## Wer ist der Trainer?
+Marcus Herrmann, WAS und BIK BITV-Prüfer, Autor und Webentwickler. Baut seit 20 Jahren Websites, liebt es, Wissen zu vermitteln
+
+## Was sagen andere?
+(Testimonial)
+##  Wie funktioniert die Anmeldung?
+Ist remote oder vor Ort möglich
+
+
+- Formular Kontaktaufnahme (B2C)
+- Formular Terminbuchung (B2B)
+- Beides mit https://formspark.io/pricing/
